@@ -1,89 +1,267 @@
 <!doctype html>
-<html lang="en" data-site="siagentnews.com">
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src https://acp9reat3l.execute-api.us-east-1.amazonaws.com; form-action 'self'; base-uri 'none'; object-src 'none'; upgrade-insecure-requests; require-trusted-types-for 'script'; trusted-types 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SI Agent News | Superintelligence (SI) &amp; Artificial Intelligence (AI): rumor vs fact, launching soon</title>
-<meta name="description" content="SI Agent News is launching soon: breaking news and rumors on superintelligence (SI), the next generation of artificial intelligence (AI), each labelled fact or rumor. Join the free preview.">
-<meta name="robots" content="index,follow">
-<link rel="canonical" href="https://siagentnews.com/">
+<!-- Meta CSP is the backup. Ship the same policy as a CloudFront response-headers policy, plus HSTS,
+     frame-ancestors 'none' (ignored in a meta tag), X-Content-Type-Options, Referrer-Policy, Permissions-Policy. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; media-src 'self'; connect-src https://acp9reat3l.execute-api.us-east-1.amazonaws.com; form-action 'self'; base-uri 'none'; object-src 'none'; manifest-src 'self'; upgrade-insecure-requests; require-trusted-types-for 'script'; trusted-types 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="theme-color" content="#1F2328">
-<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<meta name="color-scheme" content="light">
+<link rel="icon" type="image/png" href="img/mark-a.png">
+<link rel="apple-touch-icon" href="img/mark-a.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;family=Source+Serif+4:opsz,wght@8..60,600;8..60,700;8..60,800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+<title>SI Agent News | Superintelligence (SI) &amp; Artificial Intelligence (AI) rumor vs fact, stamped on every story</title>
+<meta name="description" content="Superintelligence (SI), the next generation of artificial intelligence (AI): every AI rumor stamped confirmed, reported or still open, with a weekly case file, a points-only prediction game and a public corrections log.">
+<link rel="canonical" href="https://siagentnews.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="SI Agent News">
-<meta property="og:title" content="SI Agent News | Superintelligence (SI) & Artificial Intelligence (AI): rumor vs fact, launching soon">
-<meta property="og:description" content="SI Agent News is launching soon: breaking news and rumors on superintelligence (SI), the next generation of artificial intelligence (AI), each labelled fact or rumor. Join the free preview.">
+<meta property="og:title" content="SI Agent News | Superintelligence (SI) &amp; Artificial Intelligence (AI): every rumor, stamped">
+<meta property="og:description" content="Confirmed, reported or still open. A weekly rumor case file, a prediction game for points only, and our own corrections first. SI is the new AI.">
 <meta property="og:url" content="https://siagentnews.com/">
-<meta property="og:image" content="https://siagentnews.com/assets/og.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="SI Agent News: a flat rocket about to launch. Launching soon.">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="SI Agent News | Superintelligence (SI) & Artificial Intelligence (AI): rumor vs fact, launching soon">
-<meta name="twitter:description" content="SI Agent News is launching soon: breaking news and rumors on superintelligence (SI), the next generation of artificial intelligence (AI), each labelled fact or rumor. Join the free preview.">
-<meta name="twitter:image" content="https://siagentnews.com/assets/og.png">
-<link rel="stylesheet" href="assets/style.css">
+<meta property="og:image" content="https://siagentnews.com/img/mark-a.png">
+<meta name="twitter:card" content="summary">
+<script src="assets/app.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","name":"SI Agent News","url":"https://siagentnews.com/","logo":"https://siagentnews.com/img/mark-a.png","slogan":"SI is the new AI."},{"@type":"WebSite","name":"SI Agent News","url":"https://siagentnews.com/","description":"Superintelligence (SI), the next generation of artificial intelligence (AI): every rumor stamped confirmed, reported or still open."},{"@type":"NewsArticle","headline":"Rumor of the week: Anthropic reportedly targets a mid-November IPO","datePublished":"2026-10-03","author":{"@type":"Organization","name":"SI Agent News"},"publisher":{"@type":"Organization","name":"SI Agent News"},"mainEntityOfPage":"https://siagentnews.com/#rumor"},{"@type":"Product","name":"SI Agent News Pro (founding reservation)","brand":{"@type":"Brand","name":"SI Agent News"},"offers":{"@type":"Offer","price":"7.99","priceCurrency":"USD","availability":"https://schema.org/PreOrder"}}]}</script>
 </head>
 <body>
-<a class="skip" href="#main">Skip to the sign-up</a>
+<a class="skip" href="#main">Skip to content</a>
+<svg width="0" height="0" class="sr" aria-hidden="true" focusable="false"><defs>
+    <symbol id="v-check" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8.5"/><path d="M5.8 10.4l3 3 5.6-6.4"/></symbol>
+    <symbol id="v-bars" viewBox="0 0 20 20"><rect x="2.5" y="3" width="15" height="14" rx="2"/><path d="M6 8h8M6 12h5"/></symbol>
+    <symbol id="v-ring" viewBox="0 0 20 20"><circle cx="10" cy="10" r="8.5" stroke-dasharray="3 2.4"/><path d="M10 6v4.5"/><circle cx="10" cy="13.6" r=".6"/></symbol>
+    <symbol id="i-note" viewBox="0 0 24 24"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24"><path d="M2 12h3l2-6 4 12 3-9 2 3h6"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v17H6.5A2.5 2.5 0 0 0 4 21.5zM4 21.5V4.5M8 7h8"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.8 6.6 19.7l1.1-6.1L3.2 9.4l6.1-.8z"/></symbol>
+    <symbol id="i-img" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 17l-5-5-9 8"/></symbol>
+  </defs></svg>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="SI Agent News, home">
+      <span class="mark" id="logo" aria-hidden="true"></span>
+      <span class="brand-t"><b>SI Agent News</b><span class="tagline"><abbr class="si" title="superintelligence">SI</abbr> is the new <abbr title="artificial intelligence">AI</abbr>.</span></span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#rumor">Rumor of the week</a>
+      <a href="#stories">Stories</a>
+      <a href="#callit">Call it</a>
+      <a href="#corrections">Corrections</a>
+      <a href="#plans">Plans</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="btn-ghost" href="#join-email">Join free</a>
+  </div>
+</header>
 <div class="wrap">
-  <header>
-    <!-- LOGO SLOT: the single <img> below is the only place the logo appears. To swap in the real logo, replace assets/logo.svg
-         (same file name), or drop in a PNG/SVG and change src, width and height here. See README.md. -->
-    <a class="brand" href="/" aria-label="SI Agent News, home"><img class="logo" id="logo" src="assets/logo.svg" width="182" height="38" alt="SI Agent News"></a>
-  </header>
   <p class="terms"><span class="t-si">Superintelligence (SI)</span> <span class="t-amp">&amp;</span> <span class="t-ai">Artificial Intelligence (AI)</span></p>
-  <main id="main">
-    <div class="stage">
-<svg class="rocket" viewBox="0 0 320 360" aria-hidden="true" focusable="false">
-  <defs><clipPath id="rk-body"><path d="M160 36 C200 78 216 128 216 190 L216 236 L104 236 L104 190 C104 128 120 78 160 36 Z"/></clipPath></defs>
-  <circle class="c-stage" cx="160" cy="190" r="146"/>
-  <g class="motif"><circle class="fill-m1" cx="78" cy="112" r="24"/><path class="stroke badge-ink" d="M67 112 L75 120 L90 103"/><circle class="fill-m2" cx="244" cy="134" r="24"/><path class="stroke badge-ink" d="M236 128 A8 8 0 1 1 249 135 C245 137 244 139 244 143"/><circle class="fill-badge-ink" cx="244" cy="152" r="2.6"/></g>
-  <g class="sparks"><path class="sp" d="M262 52 Q262 60 270 60 Q262 60 262 68 Q262 60 254 60 Q262 60 262 52 Z"/><path class="sp" d="M44 199 Q44 206 51 206 Q44 206 44 213 Q44 206 37 206 Q44 206 44 199 Z"/><path class="sp" d="M280 226 Q280 232 286 232 Q280 232 280 238 Q280 232 274 232 Q280 232 280 226 Z"/></g>
-  <g class="rocket-g">
-    <g class="flame"><path class="c-flame1" d="M140 250 C140 286 150 306 160 332 C170 306 180 286 180 250 Z"/><path class="c-flame2" d="M149 250 C149 272 155 288 160 302 C165 288 171 272 171 250 Z"/></g>
-    <path class="c-fin" d="M104 188 C78 198 62 222 58 266 L104 238 Z"/>
-    <path class="c-fin" d="M216 188 C242 198 258 222 262 266 L216 238 Z"/>
-    <path class="c-nozzle" d="M130 234 L190 234 L182 256 L138 256 Z"/>
-    <g clip-path="url(#rk-body)">
-      <rect class="c-body" x="100" y="30" width="120" height="212"/>
-      <rect class="c-shade" x="188" y="30" width="34" height="212"/>
-      <path class="c-nose" d="M100 30 H220 V110 Q160 126 100 110 Z"/>
-      <rect class="c-band" x="100" y="206" width="120" height="16"/>
-    </g>
-    <circle class="c-ring" cx="160" cy="156" r="27"/>
-    <circle class="c-glass" cx="160" cy="156" r="20"/>
-    <circle class="c-glint" cx="153" cy="149" r="6"/>
-  </g>
-  <g class="puffs"><circle class="c-cloud puff p1" cx="148" cy="270" r="8"/><circle class="c-cloud puff p2" cx="172" cy="272" r="7"/><circle class="c-cloud puff p3" cx="160" cy="280" r="9"/></g>
-  <g class="clouds c-cloud"><rect x="34" y="324" width="252" height="24" rx="12"/><circle cx="82" cy="320" r="18"/><circle cx="120" cy="311" r="24"/><circle cx="204" cy="313" r="26"/><circle cx="246" cy="321" r="16"/></g>
-</svg>
-    </div>
-    <div class="copy">
-      <p class="pill">Founders&rsquo; Preview</p>
-      <h1><span class="sr">SI Agent News: </span>Launching soon</h1>
-      <p class="lead">Breaking news and rumors on superintelligence (SI), the next generation of artificial intelligence (AI), each labelled fact or rumor, with its source.</p>
-      <form class="join" id="join" novalidate>
-        <label class="lbl" for="email">Email</label>
-        <div class="row">
-          <input id="email" name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" placeholder="Your email address" required aria-describedby="fine err">
-          <button class="btn" type="submit">Join the free preview</button>
-        </div>
-        <div class="hp" aria-hidden="true"><label for="hp1">Website (leave this empty)</label><input id="hp1" name="website" type="text" tabindex="-1" autocomplete="off"></div>
-        <p class="fine" id="fine">Free. No spam, unsubscribe in one click. We email you a link to confirm.</p>
-        <p class="err js-err" id="err" role="alert"></p>
-        <noscript><p class="fine">Sign-up needs JavaScript switched on.</p></noscript>
-      </form>
-      <div class="done" id="done" role="status" tabindex="-1" hidden>
-        <h2>You&rsquo;re in.</h2>
-        <p>Check your inbox: we sent a link to confirm <b id="done-email"></b>. Tap it to join the free preview.</p>
-      </div>
-      <p class="note">Founders&rsquo; Preview: everything here is pre-launch, including Free. We&rsquo;re still building; you&rsquo;re getting an early look.</p>
-    </div>
-  </main>
-  <footer><a href="https://theagentsignal.com/privacy.html" rel="noopener">Privacy</a></footer>
 </div>
-<script src="assets/app.js"></script>
+
+<main id="main">
+<section class="hero" id="top" aria-labelledby="h1">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="eyebrow">Founders' Preview · free while we build</span>
+      <h1 id="h1">Every AI rumor, stamped. <em>Confirmed, reported or still open.</em></h1>
+      <p class="lead">We read thousands of sources, <b data-k="articlesWords">over half a million articles</b> so far, and put one honest stamp on each story, with what would settle it. Start with the email address you actually read.</p>
+      <div class="signup">
+        <form class="join js-join" id="join-email" action="#" method="post" novalidate>
+          <label class="f-lab" for="em1">Email</label>
+          <div class="join-row">
+            <input id="em1" name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" placeholder="Your email address" required aria-describedby="em1-fine em1-err">
+            <button class="btn" type="submit">Get the rumor of the week</button>
+          </div>
+          <div class="hp" aria-hidden="true"><label for="hp1">Website (leave this empty)</label><input id="hp1" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+          <p class="fine" id="em1-fine">Free. No spam, unsubscribe in one click. We email you a link to confirm.</p>
+          <p class="err js-err" id="em1-err" role="alert"></p>
+          <noscript><p class="fine">Sign-up needs JavaScript switched on.</p></noscript>
+        </form>
+        <div class="flow js-flow" role="region" aria-label="Your sign-up" hidden></div>
+      </div>
+      <p class="si-note"><span class="si">Superintelligence (SI)</span>, the next generation of artificial intelligence (AI). Since Executive Order 14355 (29 Sep 2026), US federal agencies say "Super Intelligence" instead of "AI". A new name, not a claim that machines now outthink people. <span class="src">Source: <a href="https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/" target="_blank" rel="noopener">The White House<span class="sr"> (opens in a new tab)</span></a></span></p>
+      <ul class="proof">
+        <li><b>Over half a million</b><span>articles read so far</span></li>
+        <li><b>22</b><span>categories, from thousands of sources</span></li>
+        <li><b>200+</b><span>rumors tracked this week</span></li>
+      </ul>
+    </div>
+    <aside class="legend" aria-labelledby="lg-h">
+      <h2 id="lg-h">The three stamps</h2>
+      <ul>
+        <li><span class="stamp s-conf"><svg aria-hidden="true"><use href="#v-check"/></svg><b>Confirmed</b></span><p>The source itself says so: a company, a court, a government, a filing.</p></li>
+        <li><span class="stamp s-rep"><svg aria-hidden="true"><use href="#v-bars"/></svg><b>Reported</b> <small>· n outlets</small></span><p>Credible outlets report it, but no primary source has confirmed it. We count the outlets.</p></li>
+        <li><span class="stamp s-open"><svg aria-hidden="true"><use href="#v-ring"/></svg><b>Still open</b></span><p>One outlet, thin sourcing, or the reports disagree. We say what would settle it.</p></li>
+      </ul>
+      <p class="small">A stamp can change. When it does, we say so on the story and in the corrections log.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="sec case" id="rumor" aria-labelledby="rumor-h">
+  <div class="wrap">
+    <div class="sec-h"><span class="sec-k">Rumor of the week · case file 01</span>
+      <h2 id="rumor-h">Anthropic reportedly targets a mid-November IPO.</h2></div>
+    <div class="file">
+      <div class="file-stamp"><span class="stamp s-rep"><svg aria-hidden="true"><use href="#v-bars"/></svg><b>Reported</b> <small>· 9 outlets</small></span></div>
+      <dl class="facts">
+        <div><dt>Who reports it</dt><dd>Bloomberg HT is the source we logged, on 29 Sep 2026. 9 outlets in our feed carry it.</dd></div>
+        <div><dt>How many outlets</dt><dd><span class="dots" role="img" aria-label="9 outlets"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span> <b>9</b> outlets, none citing a company statement.</dd></div>
+        <div><dt>What would settle it</dt><dd>A public filing or a company statement that names the date. Until then it stays Reported.</dd></div>
+        <div><dt>What would sink it</dt><dd>The company saying it has no date, or a filing with a different window.</dd></div>
+        <div><dt>Related, same week</dt><dd>The IPO filing is also reported to warn of existential AI risks, in 16 outlets. Same stamp, same wait.</dd></div>
+      </dl>
+      <p class="src">Source: <a href="https://www.bloomberght.com/anthropic-halka-arz-icin-kasim-ortasini-hedefliyor-3790046" target="_blank" rel="noopener">Bloomberg HT<span class="sr"> (opens in a new tab)</span></a></p>
+      <p class="file-act"><a class="btn sm" href="#callit">Call it: yes or no</a><span class="small">Your guess stays private and is scored when this resolves.</span></p>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="stories" aria-labelledby="stories-h">
+  <div class="wrap">
+    <div class="sec-h"><span class="sec-k">This week</span>
+      <h2 id="stories-h">Every story wears a stamp.</h2>
+      <p>Swipe through the week, or filter by stamp. Each line names its source and what would change the stamp.</p></div>
+    <div class="tabs" id="vTabs" role="group" aria-label="Filter by stamp">
+      <button type="button" class="tab" data-f="all" aria-pressed="true">All</button>
+      <button type="button" class="tab" data-f="conf" aria-pressed="false">Confirmed</button>
+      <button type="button" class="tab" data-f="rep" aria-pressed="false">Reported</button>
+      <button type="button" class="tab" data-f="open" aria-pressed="false">Still open</button>
+    </div>
+    <div class="snap story-row" id="storyRow" tabindex="0" role="region" aria-roledescription="carousel" aria-label="Stories this week. Swipe, or use the left and right arrow keys."><article class="story" data-v="rep" id="s-ipo-nov" aria-labelledby="s-ipo-nov-h"><div class="story-top"><span class="stamp s-rep"><svg aria-hidden="true"><use href="#v-bars"/></svg><b>Reported</b> <small>· 9 outlets</small></span><span class="meta">Funding · 29 Sep 2026</span></div><h3 id="s-ipo-nov-h">Anthropic reportedly targets a mid-November IPO.</h3><p class="what"><b>What would settle it:</b> A public filing or a company statement that names the date.</p><p class="src">Source: <a href="https://www.bloomberght.com/anthropic-halka-arz-icin-kasim-ortasini-hedefliyor-3790046" target="_blank" rel="noopener">Bloomberg HT<span class="sr"> (opens in a new tab)</span></a></p></article><article class="story" data-v="rep" id="s-ipo-risk" aria-labelledby="s-ipo-risk-h"><div class="story-top"><span class="stamp s-rep"><svg aria-hidden="true"><use href="#v-bars"/></svg><b>Reported</b> <small>· 16 outlets</small></span><span class="meta">Funding · 29 Sep 2026</span></div><h3 id="s-ipo-risk-h">Anthropic&#x27;s IPO filing reportedly warns of existential AI risks.</h3><p class="what"><b>What would settle it:</b> The filing itself, published, with the language in it.</p><p class="src">Source: <a href="https://www.theguardian.com/technology/2026/sep/29/anthropic-warns-existential-ai-risks-humanity-ipo-document-claude" target="_blank" rel="noopener">The Guardian<span class="sr"> (opens in a new tab)</span></a></p></article><article class="story" data-v="conf" id="s-eo" aria-labelledby="s-eo-h"><div class="story-top"><span class="stamp s-conf"><svg aria-hidden="true"><use href="#v-check"/></svg><b>Confirmed</b></span><span class="meta">Policy · 29 Sep 2026</span></div><h3 id="s-eo-h">Executive Order 14355: US federal agencies now say “Super Intelligence” (SI) instead of “AI”.</h3><p class="what"><b>Settled by:</b> the primary source. A naming change, not a claim about what machines can do.</p><p class="src">Source: <a href="https://www.whitehouse.gov/presidential-actions/2026/09/inaugurating-the-era-of-super-intelligence/" target="_blank" rel="noopener">The White House<span class="sr"> (opens in a new tab)</span></a></p></article><article class="story" data-v="rep" id="s-rtx" aria-labelledby="s-rtx-h"><div class="story-top"><span class="stamp s-rep"><svg aria-hidden="true"><use href="#v-bars"/></svg><b>Reported</b> <small>· 11 outlets</small></span><span class="meta">China · 28 Sep 2026</span></div><h3 id="s-rtx-h">China may allow ByteDance and Alibaba to buy NVIDIA RTX PRO 5500 chips.</h3><p class="what"><b>What would settle it:</b> A Chinese government notice or a statement from either buyer.</p><p class="src">Source: <a href="https://thenextweb.com/news/china-alibaba-bytedance-nvidia-rtx-pro-5500" target="_blank" rel="noopener">The Next Web<span class="sr"> (opens in a new tab)</span></a></p></article><article class="story" data-v="rep" id="s-oai30" aria-labelledby="s-oai30-h"><div class="story-top"><span class="stamp s-rep"><svg aria-hidden="true"><use href="#v-bars"/></svg><b>Reported</b> <small>· 6 outlets</small></span><span class="meta">Funding · 29 Sep 2026</span></div><h3 id="s-oai30-h">OpenAI reportedly seeks $30B at a $1.4T valuation.</h3><p class="what"><b>What would settle it:</b> An announced round, or a company statement with the figures.</p><p class="src">Source: <a href="https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/" target="_blank" rel="noopener">TechCrunch<span class="sr"> (opens in a new tab)</span></a></p></article><article class="story" data-v="conf" id="s-devday" aria-labelledby="s-devday-h"><div class="story-top"><span class="stamp s-conf"><svg aria-hidden="true"><use href="#v-check"/></svg><b>Confirmed</b></span><span class="meta">Agents · 29 Sep 2026</span></div><h3 id="s-devday-h">OpenAI DevDay: Dots agents, the GPT-6.1 Sol model and a faster UltraFast mode.</h3><p class="what"><b>Settled by:</b> the primary source. Stated directly by the source below.</p><p class="src">Source: <a href="https://openai.com/index/devday-2026-recap/" target="_blank" rel="noopener">OpenAI<span class="sr"> (opens in a new tab)</span></a></p></article><article class="story" data-v="rep" id="s-ftc" aria-labelledby="s-ftc-h"><div class="story-top"><span class="stamp s-rep"><svg aria-hidden="true"><use href="#v-bars"/></svg><b>Reported</b> <small>· 4 outlets</small></span><span class="meta">Policy · 30 Sep 2026</span></div><h3 id="s-ftc-h">The US FTC has reportedly opened a probe into OpenAI and Anthropic.</h3><p class="what"><b>What would settle it:</b> A statement from the FTC or either company confirming an inquiry.</p><p class="src">Source: <a href="https://www.theverge.com/ai-artificial-intelligence/1002695/the-ftc-has-reportedly-opened-an-investigation-into-openai-and-anthropic" target="_blank" rel="noopener">The Verge<span class="sr"> (opens in a new tab)</span></a></p></article><article class="story" data-v="conf" id="s-argon" aria-labelledby="s-argon-h"><div class="story-top"><span class="stamp s-conf"><svg aria-hidden="true"><use href="#v-check"/></svg><b>Confirmed</b></span><span class="meta">Models · 30 Sep 2026</span></div><h3 id="s-argon-h">Google announced Gemini 4 Argon, its new frontier model, rolling out first to trusted cyber defenders.</h3><p class="what"><b>Settled by:</b> the primary source. Stated directly by the source below.</p><p class="src">Source: <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/" target="_blank" rel="noopener">Google<span class="sr"> (opens in a new tab)</span></a></p></article><article class="story" data-v="rep" id="s-hack" aria-labelledby="s-hack-h"><div class="story-top"><span class="stamp s-rep"><svg aria-hidden="true"><use href="#v-bars"/></svg><b>Reported</b> <small>· 12 outlets</small></span><span class="meta">Security · 27 Sep 2026</span></div><h3 id="s-hack-h">AI agents reportedly tried to get into US and Canadian government websites.</h3><p class="what"><b>What would settle it:</b> An incident report from an affected agency or the agents&#x27; operator.</p><p class="src">Source: <a href="https://dig.watch/updates/openai-agents-rogue-us-government-websites" target="_blank" rel="noopener">Digital Watch Observatory<span class="sr"> (opens in a new tab)</span></a></p></article><article class="story" data-v="rep" id="s-tencent" aria-labelledby="s-tencent-h"><div class="story-top"><span class="stamp s-rep"><svg aria-hidden="true"><use href="#v-bars"/></svg><b>Reported</b> <small>· 6 outlets</small></span><span class="meta">Silicon · 1 Oct 2026</span></div><h3 id="s-tencent-h">Tencent reportedly leases 100,000 AI chips from Oracle for $7B.</h3><p class="what"><b>What would settle it:</b> A statement or filing from Tencent or Oracle.</p><p class="src">Source: <a href="https://www.techrepublic.com/article/news-tencent-oracle-ai-chip-deal-apac-southeast-asia/" target="_blank" rel="noopener">TechRepublic<span class="sr"> (opens in a new tab)</span></a></p></article><article class="story" data-v="open" id="s-publishers" aria-labelledby="s-publishers-h"><div class="story-top"><span class="stamp s-open"><svg aria-hidden="true"><use href="#v-ring"/></svg><b>Still open</b> <small>· 1 outlet</small></span><span class="meta">Consumer AI · 30 Sep 2026</span></div><h3 id="s-publishers-h">Google reportedly tests paying publishers for AI search results.</h3><p class="what"><b>What would settle it:</b> A second outlet with its own sourcing, or a Google statement.</p><p class="src">Source: <a href="https://www.theverge.com/tech/1002665/google-paying-publishers-ai-search-features" target="_blank" rel="noopener">The Verge<span class="sr"> (opens in a new tab)</span></a></p></article><article class="story" data-v="conf" id="s-skills" aria-labelledby="s-skills-h"><div class="story-top"><span class="stamp s-conf"><svg aria-hidden="true"><use href="#v-check"/></svg><b>Confirmed</b></span><span class="meta">Consumer AI · 30 Sep 2026</span></div><h3 id="s-skills-h">Google is replacing Gemini Gems with Skills, free accounts included.</h3><p class="what"><b>Settled by:</b> the primary source. Stated directly by the source below.</p><p class="src">Source: <a href="https://9to5google.com/2026/09/30/gemini-skills-free/" target="_blank" rel="noopener">9to5Google<span class="sr"> (opens in a new tab)</span></a></p></article></div>
+    <div class="ctrl"><button type="button" id="stPrev" aria-controls="storyRow">Back</button><span class="count tnum" id="stCount" aria-live="polite"></span><button type="button" id="stNext" aria-controls="storyRow">Next</button></div>
+    <p class="small">This preview shows the week's stamped stories. At launch, the desk updates every hour.</p>
+  </div>
+</section>
+
+<section class="sec" id="callit" aria-labelledby="callit-h">
+  <div class="wrap">
+    <div class="sec-h"><span class="sec-k">Call it</span>
+      <h2 id="callit-h">Make your call. Get scored when it resolves.</h2>
+      <p>Pick yes or no on an open rumor, and how sure you are. Your guesses are private: saved on this device, never shown to anyone. When the rumor gets a verdict, you score. <b>Points only, never money.</b> No prizes, no stakes.</p></div>
+    <div class="callbox">
+      <div class="snap call-row" id="callRow" tabindex="0" role="region" aria-roledescription="carousel" aria-label="Open rumors to call. Swipe, or use the left and right arrow keys."><article class="callc" data-id="ipo-nov" aria-labelledby="c-ipo-nov-h"><div class="story-top"><span class="stamp s-rep"><svg aria-hidden="true"><use href="#v-bars"/></svg><b>Reported</b> <small>· 9 outlets</small></span><span class="meta">Open since 29 Sep</span></div><h3 id="c-ipo-nov-h">Anthropic reportedly targets a mid-November IPO.</h3><fieldset class="pick"><legend>Will a public filing or company statement confirm a November IPO?</legend><label class="opt"><input type="radio" name="g-ipo-nov" value="yes"><span>Yes</span></label><label class="opt"><input type="radio" name="g-ipo-nov" value="no"><span>No</span></label></fieldset><fieldset class="pick conf"><legend>How sure are you?</legend><label class="opt"><input type="radio" name="c-ipo-nov" value="1" checked><span>Hunch <i>×1</i></span></label><label class="opt"><input type="radio" name="c-ipo-nov" value="2"><span>Fairly sure <i>×2</i></span></label><label class="opt"><input type="radio" name="c-ipo-nov" value="3"><span>Certain <i>×3</i></span></label></fieldset><p class="saved" role="status" aria-live="polite"></p></article><article class="callc" data-id="oai30" aria-labelledby="c-oai30-h"><div class="story-top"><span class="stamp s-rep"><svg aria-hidden="true"><use href="#v-bars"/></svg><b>Reported</b> <small>· 6 outlets</small></span><span class="meta">Open since 29 Sep</span></div><h3 id="c-oai30-h">OpenAI reportedly seeks $30B at a $1.4T valuation.</h3><fieldset class="pick"><legend>Will OpenAI announce a round at about this size?</legend><label class="opt"><input type="radio" name="g-oai30" value="yes"><span>Yes</span></label><label class="opt"><input type="radio" name="g-oai30" value="no"><span>No</span></label></fieldset><fieldset class="pick conf"><legend>How sure are you?</legend><label class="opt"><input type="radio" name="c-oai30" value="1" checked><span>Hunch <i>×1</i></span></label><label class="opt"><input type="radio" name="c-oai30" value="2"><span>Fairly sure <i>×2</i></span></label><label class="opt"><input type="radio" name="c-oai30" value="3"><span>Certain <i>×3</i></span></label></fieldset><p class="saved" role="status" aria-live="polite"></p></article><article class="callc" data-id="ftc" aria-labelledby="c-ftc-h"><div class="story-top"><span class="stamp s-rep"><svg aria-hidden="true"><use href="#v-bars"/></svg><b>Reported</b> <small>· 4 outlets</small></span><span class="meta">Open since 30 Sep</span></div><h3 id="c-ftc-h">The US FTC has reportedly opened a probe into OpenAI and Anthropic.</h3><fieldset class="pick"><legend>Will the FTC or either company confirm an inquiry?</legend><label class="opt"><input type="radio" name="g-ftc" value="yes"><span>Yes</span></label><label class="opt"><input type="radio" name="g-ftc" value="no"><span>No</span></label></fieldset><fieldset class="pick conf"><legend>How sure are you?</legend><label class="opt"><input type="radio" name="c-ftc" value="1" checked><span>Hunch <i>×1</i></span></label><label class="opt"><input type="radio" name="c-ftc" value="2"><span>Fairly sure <i>×2</i></span></label><label class="opt"><input type="radio" name="c-ftc" value="3"><span>Certain <i>×3</i></span></label></fieldset><p class="saved" role="status" aria-live="polite"></p></article><article class="callc" data-id="publishers" aria-labelledby="c-publishers-h"><div class="story-top"><span class="stamp s-open"><svg aria-hidden="true"><use href="#v-ring"/></svg><b>Still open</b> <small>· 1 outlet</small></span><span class="meta">Open since 30 Sep</span></div><h3 id="c-publishers-h">Google reportedly tests paying publishers for AI search results.</h3><fieldset class="pick"><legend>Will Google confirm it is paying publishers for AI search?</legend><label class="opt"><input type="radio" name="g-publishers" value="yes"><span>Yes</span></label><label class="opt"><input type="radio" name="g-publishers" value="no"><span>No</span></label></fieldset><fieldset class="pick conf"><legend>How sure are you?</legend><label class="opt"><input type="radio" name="c-publishers" value="1" checked><span>Hunch <i>×1</i></span></label><label class="opt"><input type="radio" name="c-publishers" value="2"><span>Fairly sure <i>×2</i></span></label><label class="opt"><input type="radio" name="c-publishers" value="3"><span>Certain <i>×3</i></span></label></fieldset><p class="saved" role="status" aria-live="polite"></p></article></div>
+      <div class="ctrl"><button type="button" id="cPrev" aria-controls="callRow">Back</button><span class="count tnum" id="cCount" aria-live="polite"></span><button type="button" id="cNext" aria-controls="callRow">Next</button></div>
+      <aside class="score" aria-labelledby="score-h">
+        <h3 id="score-h">Your points</h3>
+        <p class="pts"><b id="pts" class="tnum">0</b><span id="ptsNote">No rumor has resolved yet. You have <span id="openN">0</span> open call<span id="openS">s</span>.</span></p>
+        <ul class="rules">
+          <li>Right call: <b>+10 × your sureness</b></li>
+          <li>Wrong call: <b>−5 × your sureness</b>, and your total never goes below 0</li>
+          <li>You can change a call until the rumor is stamped</li>
+        </ul>
+        <button class="linkbtn" type="button" id="clearCalls">Clear my calls on this device</button>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="corrections" aria-labelledby="corr-h">
+  <div class="wrap">
+    <div class="sec-h"><span class="sec-k">Public corrections log</span>
+      <h2 id="corr-h">Our own mistakes first.</h2>
+      <p>When we get something wrong, it goes here, above everything else, with the date, what we said, what was true and what we changed.</p></div>
+    <div class="log" role="table" aria-label="Corrections log">
+      <div class="log-h" role="row"><span role="columnheader">Date</span><span role="columnheader">Story</span><span role="columnheader">What we got wrong</span><span role="columnheader">What we changed</span></div>
+      <div class="log-empty" role="row"><span role="cell">3 Oct 2026</span><span role="cell">None so far</span><span role="cell">No corrections yet. This preview opened today.</span><span role="cell">The first entry will appear here.</span></div>
+    </div>
+    <ul class="pledge">
+      <li><b>Ours first.</b> Our own errors are logged before we point at anyone else's.</li>
+      <li><b>No quiet edits.</b> A changed headline or stamp gets a dated note on the story.</li>
+      <li><b>Stamps move both ways.</b> A Reported story can become Confirmed, and a Confirmed one can be walked back.</li>
+      <li><b>You can tell us.</b> Reply to any email from us with the story and what you think we got wrong.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="plans" aria-labelledby="plans-h">
+  <div class="wrap">
+    <div class="sec-h"><span class="sec-k">Plans · pre-launch</span>
+      <h2 id="plans-h">Reserve your founding price.</h2>
+      <p>Four tiers: Free, Pro, MAX and Ultra. You reserve with a refundable deposit, not a subscription payment for something that isn't built yet. Prices are all-in: no tax or fees added. Pre-launch pricing ends at launch.</p></div>
+    <div class="snap tier-row" id="tierRow" tabindex="0" role="region" aria-label="Plans. Swipe, or use the left and right arrow keys."><article class="tier" aria-labelledby="t-free-h"><h3 id="t-free-h">Free</h3>
+        <p class="price"><b>$0</b><span>forever</span></p>
+        <ul><li>The public stamp on every story</li><li>The rumor of the week, summary</li><li>One lane, summaries only</li><li>Your private call-it game</li></ul>
+        <a class="btn ghost" href="#join-email">Start free</a><p class="perk">Free. No card.</p></article><article class="tier" aria-labelledby="t-pro-h"><h3 id="t-pro-h">Pro</h3>
+        <p class="price"><b>$7.99/mo</b><span>founding, locked while you stay subscribed</span></p>
+        <p class="was">At launch $9.99/mo · reserve today and save $2/mo · $24/yr · 20%</p>
+        <ul><li>Every case file in full: who reports it, how many outlets, what settles it</li><li>The full hourly radio-style brief</li><li>Three lanes in full text, plus your call-it history</li></ul>
+        <button class="btn js-reserve" type="button" data-tier="pro">Reserve Pro for $9.99</button>
+        <p class="perk"><b>Insider perks:</b> first access to new features and prices, sneak peeks, notes from the build room. Refundable before launch.</p></article><article class="tier feat" aria-labelledby="t-max-h"><h3 id="t-max-h">MAX</h3>
+        <p class="price"><b>$14.99/mo</b><span>founding, locked while you stay subscribed</span></p>
+        <p class="was">At launch $19.99/mo · reserve today and save $5/mo · $60/yr · 25%</p>
+        <ul><li>Everything in Pro, every lane in full text</li><li>Morning and evening deep dives (learning, no news)</li><li>All 24 white papers and the member forum</li></ul>
+        <button class="btn js-reserve" type="button" data-tier="max">Reserve MAX for $29</button>
+        <p class="perk"><b>Insider perks:</b> first access to new features and prices, sneak peeks, notes from the build room. Refundable before launch.</p></article><article class="tier" aria-labelledby="t-ultra-h"><h3 id="t-ultra-h">Ultra</h3>
+        <p class="price"><b>$69.99/mo</b><span>founding, locked while you stay subscribed</span></p>
+        <p class="was">At launch $99.99/mo · reserve today and save $30/mo · $360/yr · 30%</p>
+        <ul><li>Everything in MAX</li><li>The 21-book library and training by job title</li><li>The full Defense Playbook and the insider circle</li></ul>
+        <button class="btn js-reserve" type="button" data-tier="ultra">Reserve Ultra for $99</button>
+        <p class="perk"><b>Insider perks:</b> first access to new features and prices, sneak peeks, notes from the build room. Refundable before launch.</p></article></div>
+    <p class="fine lg">Deposits are refundable on request before launch only. Reserve with Apple Pay, Google Pay, Link or a card, through Stripe.</p>
+  </div>
+</section>
+
+<section class="sec alt" id="submit" aria-labelledby="submit-h">
+  <div class="wrap two">
+    <img class="mascot" src="img/char_purple_pulse-lying.png" width="300" height="240" alt="A friendly purple alien with two antennas lies on its tummy, reading a phone.">
+    <div>
+      <span class="sec-k">Submit a rumor</span>
+      <h2 id="submit-h">Heard something? Send it in.</h2>
+      <p>Tell us the rumor, where you saw it, and who it affects. We stamp it, show our work and say what would settle it. The submission desk opens at launch; join the list and we'll send you the link on day one.</p>
+      <p><a class="btn sm" href="#join-email">Join for the submit link</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="about" aria-labelledby="about-h">
+  <div class="wrap two rev">
+    <div>
+      <span class="sec-k">About</span>
+      <h2 id="about-h">A newsroom habit, applied to AI.</h2>
+      <p>SI Agent News follows <span class="si">superintelligence (SI)</span>, the next generation of artificial intelligence (AI), and the rumors around it. It reads thousands of sources across 22 categories and holds each claim to the same test: who says it, how many say it, and what would settle it.</p>
+      <p>It is built by one person with AI doing the reading, and a person deciding every stamp. Sources are credited on every story; where a claim has only one source, we say so.</p>
+      <p class="small"><abbr class="si" title="superintelligence">SI</abbr> = superintelligence, the new name for AI (artificial intelligence). Our wider network, including the daily brief and the SI Stylebook, lives at <a href="https://siagentsignal.com/">siagentsignal.com</a>.</p>
+    </div>
+    <img class="mascot" src="img/char_blue_pulse-standing2.png" width="220" height="280" alt="A friendly blue alien with two antennas and a plain visor holds a phone.">
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="SI Agent News, home">
+      <span class="mark" aria-hidden="true"></span>
+      <span class="brand-t"><b>SI Agent News</b><span class="tagline"><abbr class="si" title="superintelligence">SI</abbr> is the new <abbr title="artificial intelligence">AI</abbr>.</span></span>
+    </a>
+    <p class="small">Source credits appear at the end of every story. Sharing links with friends may earn you points in our games, never cash. News, not investment advice. Prices are all-in. We collect your email, and optional profile details you choose to add, to send what you ask for; no covert tracking.</p>
+  </div>
+<div class="wrap"><p class="small est">Part of Superintelligence, the home of superintelligence. Est. October 3, 2026.<br>Superintelligence, a trade name of HM Tech Solutions LLC.</p></div>
+</footer>
+
+<dialog id="checkout" aria-labelledby="co-h">
+  <div class="dlg">
+    <h3 id="co-h">Reserve Pro</h3>
+    <ol>
+      <li><i>1</i><div><div class="lbl">What you get</div><div class="val"><ul id="coGet"></ul></div></div></li>
+      <li><i>2</i><div><div class="lbl">Price</div><div class="val" id="coPrice"></div></div></li>
+      <li><i>3</i><div><div class="lbl">Your saving</div><div class="val" id="coSave"></div></div></li>
+    </ol>
+    <div class="pay">
+      <button class="btn" type="button" id="coPay">Reserve</button>
+      <p id="coRefund"></p>
+      <p id="coInsider"></p>
+    </div>
+    <p class="status" id="coStatus" aria-live="polite"></p>
+    <div class="x">
+      <span class="small">Secure checkout by Stripe. Apple Pay, Google Pay and Link come before card entry. No spam, unsubscribe in one click.</span>
+      <button class="notnow" type="button" id="coClose">Not now</button>
+    </div>
+  </div>
+</dialog>
 </body>
 </html>
