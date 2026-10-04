@@ -286,7 +286,7 @@ $$(".js-reserve").forEach(function (b) {
     openDlg();
   });
 });
-$("#coPay").addEventListener("click", function () { $("#coStatus").textContent = "Preview build: Stripe's hosted checkout (test mode first) connects here. No payment was taken."; });
+$("#coPay").addEventListener("click", function () { /* pay-wired */ var u = lastBtn && lastBtn.getAttribute("data-pay-url"); if (!u) { $("#coStatus").textContent = "Checkout is not open yet. Please try again shortly."; return; } $("#coStatus").textContent = "Opening secure checkout..."; window.location.assign(u); });
 $("#coClose").addEventListener("click", closeDlg);
 dlg.addEventListener("close", function () { if (lastBtn) lastBtn.focus(); });
 })();
